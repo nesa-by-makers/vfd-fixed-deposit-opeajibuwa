@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Fixed Deposit Investment Form</title>
+<link rel="stylesheet" href="stylesheet.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+img { padding-top: 30px;}
+span { font-size: 12px;}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $(".bcolor").focus(function(){
+        $(this).css("background-color", "#FFFFFF");
+    });
+$(".bcolor").blur(function(){
+        $(this).css("background-color", "#D0D8F7");
+    });
+});
+</script>
+
+</head>
+
+<body>
+
+<div class="lab" style = "text-align: right">
+<header>
+<img src = "logo.jpg" style = "float:left">
+<div class = "pep"> FIXED DEPOSIT PLACEMENT FORM</div>
+</header>
+</div>
+	
+<p class="sub">Thank you for choosing to invest with VFD Bridge. We are pleased to have the opportunity to offer our services to you<br /> 
+Kindly provide ALL your details below (as applicable) to aid the processing of your placement:</p>
+
+<br />
+<div class ="wrapper" >
+			<table>
+				<form action = " ">
+					<tr id = "table"><td>Full Name </td> <td><textarea class = "bcolor" name = "fullname" cols = "90" rows="1" ></textarea></td></tr>
+					<tr id = "table"><td>Phone Number</td> <td><textarea class = "bcolor" name = "phonenumber" cols = "90" rows="1"></textarea></td></tr>
+					<tr id = "table"><td>Residental Address</td> <td> <textarea class = "bcolor" name = "residentaddress" rows ="5" cols = "90"></textarea></td></tr>
+					<tr id = "table"><td>Office Address</td> <td><textarea class = "bcolor" name = "officeaddress" cols = "90" rows="1"></textarea></td></tr>
+					<tr id = "table"><td>Occupation </td> <td><textarea class = "bcolor" name = "occupation" cols = "90" rows="1"></textarea></td></tr>
+				</form>
+			</table>
+		</div>
+			<table class = "outliner"><h3><td>PLACEMENT INFORMATION</td></h3></table>
+		<div class ="wrapper" >
+			<table>
+				<form action = " ">
+					<tr id = "table"><td>Proposed Duration</td> <td><textarea class = "bcolor" name = "proposedduration" cols = "90" rows="1"></textarea></td></tr>
+					<tr id = "table"><td>Amount</td> <td><textarea class = "bcolor" name = "amount" cols = "90" rows="1"></textarea></td></tr>
+				</form>
+			</table>
+		</div>
+			<table class = "outliner"><h3><td>PAYOUT DETAILS</td></h3></table>
+		<div class ="wrapper" >	
+				<table>
+					<form action = " ">	
+						<tr id = "table"><td>Account Number &nbsp; &nbsp; </td> <td><textarea class = "bcolor" name = "accountnumber" cols = "90" rows="1"></textarea></td></tr>
+						<tr id = "table"><td>Amount Name </td> <td><textarea class = "bcolor" name = "accountname" cols = "90" rows="1"></textarea></td></tr>
+						<tr id = "table"><td>Name Of Bank </td> <td><textarea class = "bcolor" name = "nameofbank" cols = "90" rows="1"></textarea></td></tr>
+					</form>
+				</table>	
+ 		</div>
+			<table class = "outliner"><h3><td>NEXT-OF-KIN DETAILS</td></h3></table>
+		<div class ="wrapper" >	
+				<table>
+					<form action = " ">	
+						<tr id = "table"><td>Name </td> <td>&emsp; &emsp;<textarea class = "bcolor" name = "accountnumber" cols = "90" rows="1"></textarea></td></tr>
+						<tr id = "table"><td>Phone Number </td> <td>&emsp; &emsp;<textarea class = "bcolor" name = "accountname"  cols = "90" rows="1"></textarea></td></tr>
+						<tr id = "table"><td>Email Address </td> <td>&emsp; &emsp;<textarea class = "bcolor" name = "nameofbank"  cols = "90" rows="1"></textarea></td></tr>
+				</table>
+				<table>
+						<tr id = "table"><td>Reference </td><td> <span>(Who referred the company to you)</span></td> <td><textarea class = "bcolor" name = "nameofbank" cols = "74" rows="1"></textarea></td></tr>
+				</table>
+					</form>		
+ 		</div><br><br>
+		<center><button class = "submit" >Submit</button></center>
+
+</html>
