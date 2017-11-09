@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>VB Users portal</title>
+		<meta charset="utf-8">
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text.css'/>
+		<!--//webfonts-->
+</head>
+<body>
+	<div class="main">
+		<div class="header" >
+			<img src= "images/logo.jpg">
+			<h1>Welcome to VFD Bridge online platform. Register to have access to our resources</h1>
+		</div>
+		<p>New Users should simply create an account to get started!</p>
+			<form action="userssign.php" method="POST">
+				<ul class="left-form">
+					<h2>Users New Account:</h2>
+					<li>
+							<input type="text"   placeholder="Fullname" name="fname" required/>
+							<a href="#" class="icon ticker"> </a>
+							<div class="clear"> </div>
+						</li> 
+					<li>
+						<input type="text"   placeholder="Email" name="email" required/>
+						<a href="#" class="icon ticker"> </a>
+						<div class="clear"> </div>
+					</li> 
+					<li>
+						<input type="text"   placeholder="Phone Number" name="pnumber" required/>
+						<a href="#" class="icon ticker"> </a>
+						<div class="clear"> </div>
+					</li> 
+					<li>
+						<input type="password"   placeholder="Password" name="pass" required/>
+						<a href="#" class="icon into"> </a>
+						<div class="clear"> </div>
+					</li> 
+					<li>
+						<input type="password"   placeholder="Confirm password" name="cpass" required/>
+						<a href="#" class="icon into"> </a>
+						<div class="clear"> </div>
+					</li> 
+					<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Please inform me of upcoming  VFDGroup Promotions and news</label>
+					<input type="submit" onclick="myFunction()" value="Create Account">
+						<div class="clear"> </div>
+				</ul>
+			</form>
+			
+				<form action="userslog.php" method="POST">
+				<ul class="right-form">
+					<h3>Login:</h3>
+					<div>
+						<li><input type="text"  placeholder="Email Address" name= "email" required/></li>
+						<li> <input type="password"  placeholder="Password"  name= "pass" required/></li>
+						<a href=""><h4>I forgot my Password!</h4>
+							<input type="submit" value="Login" >
+							<div class="clear"> </div>
+					</div>
+				</ul>
+			</form>
+				<div class="clear"> </div>
+					
+			
+			
+		</div>
+			
+   					<div class="copy-right">
+						<p>Design by Ope | Sourced from w3resource</p> 
+					</div>
+				
+
+	
+</body>
+</html>
