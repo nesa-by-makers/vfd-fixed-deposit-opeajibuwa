@@ -26,7 +26,7 @@ $query->bind_param("sssss", $logfname, $logemail, $logphone, $logpass, $logcpass
 
 //Once data is succesfully saved to the database, redirect users to another page
 if($query->execute() == true){
-    header("Location: http://localhost/vfdformpage/index.php");
+    header("Location: http://localhost/vfdform/index.php");
     exit();
 }
 else {

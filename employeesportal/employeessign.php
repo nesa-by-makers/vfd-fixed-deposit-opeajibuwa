@@ -29,8 +29,7 @@ $query->bind_param("sssss",$user,$email,$position,$pass,$cpass);
 
 //Once data is succesfully saved to the database, redirect users to another page
 if($query->execute() == true){
-    header("Location: http://localhost/vfdformpage/index.php");
-    exit();
+    Echo "You have successfully signed up <a href = 'http://localhost/employeesportal/index.html'>Proceed to sign in</a>";
 }
 else {
     header("Location: http://localhost/employeesportal/index.html");

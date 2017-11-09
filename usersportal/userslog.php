@@ -34,7 +34,7 @@ if ($verifyquery->num_rows > 0 ){
             session_start();
             $_SESSION["fname"] = $getfname;
             $_SESSION["phone"] = $getpnumber;
-            header("Location: http://localhost/vfdformpage/index.php"); /* Redirect to form */ 
+            header("Location: http://localhost/vfdform/index.php"); /* Redirect to form */ 
             exit();
         }   
     }
